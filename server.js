@@ -54,6 +54,9 @@ app.get("/scrape", function(req, res) {
       result.link = $(this)
         .children("a")
         .attr("href");
+      // result.summary = $(this)
+      //   .children("archive-list-out")
+      //   .attr("p");
 
       // Create a new Article using the `result` object built from scraping
       db.Article.create(result)

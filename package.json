@@ -22,8 +22,10 @@
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
+    "gulp": "^3.9.1",
     "mongoose": "^5.2.14",
     "morgan": "^1.9.1",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "semantic": "0.0.1"
   }
 }
